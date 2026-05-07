@@ -1,0 +1,16 @@
+/* src/app/globals.css */
+@layer base {
+  :root {
+    --background: 212 33% 7%;    /* #0D1117 */
+    --foreground: 210 31% 83%;   /* #C9D1D9 */
+    --card: 212 33% 10%;         /* #161B22 */
+    --primary: 212 100% 67%;     /* #58A6FF - The Blue Accent */
+    --muted: 210 12% 58%;        /* #8B949E */
+    --border: 212 33% 18%;       /* #30363D */
+  }
+}
+
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+}
